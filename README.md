@@ -1,5 +1,6 @@
 #Docker
 
+```sh
 Add the EPEL Repository
 
 rpm -iUvh http://dl.fedoraproject.org/pub/epel/6/x86_64/epel-release-6-8.noarch.rpm
@@ -22,11 +23,9 @@ chkconfig docker on
 
 Download a Docker Container
 
-docker serach centos
-docker pull centos
+docker serach centos docker pull centos
 
 Run a Docker Container
 
 docker run -i -t centos /bin/bash
-
-
+```
